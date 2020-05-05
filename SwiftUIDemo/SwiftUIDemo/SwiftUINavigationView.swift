@@ -11,8 +11,21 @@ import SwiftUI
 struct SwiftUINavigationView: View {
     var body: some View {
         NavigationView {
-            SwiftUITableView()
+            List(landmarkData) { landmark in
+                LandmarkRow(landmark: landmark)
+            }
             .navigationBarTitle(Text("Select Noise"))
         }
     }
 }
+
+#if DEBUG
+struct SwiftUINavigationView_Previews: PreviewProvider {
+    static var previews: some View {
+        let deviceName = "iPhone SE"
+        return SwiftUINavigationView()
+        .previewDevice(PreviewDevice(rawValue: deviceName))
+        .previewDisplayName(deviceName)
+    }
+}
+#endif

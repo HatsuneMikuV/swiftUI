@@ -9,12 +9,10 @@
 /* Begin PBXBuildFile section */
 		D86667182459825B000928B4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D86667172459825B000928B4 /* AppDelegate.swift */; };
 		D866671A2459825B000928B4 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D86667192459825B000928B4 /* SceneDelegate.swift */; };
-		D866671C2459825B000928B4 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D866671B2459825B000928B4 /* ContentView.swift */; };
 		D866671E2459825F000928B4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D866671D2459825F000928B4 /* Assets.xcassets */; };
 		D86667212459825F000928B4 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D86667202459825F000928B4 /* Preview Assets.xcassets */; };
 		D86667242459825F000928B4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D86667222459825F000928B4 /* LaunchScreen.storyboard */; };
 		D8DB40F42461022200E63272 /* SwiftUINavigationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8DB40F32461022200E63272 /* SwiftUINavigationView.swift */; };
-		D8DB40F62461055F00E63272 /* SwiftUITableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8DB40F52461055F00E63272 /* SwiftUITableView.swift */; };
 		D8DB40F82461061600E63272 /* Landmark.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8DB40F72461061600E63272 /* Landmark.swift */; };
 		D8DB40FC246108E300E63272 /* LandmarkRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8DB40FB246108E300E63272 /* LandmarkRow.swift */; };
 		D8DB410F24610E4A00E63272 /* turtlerock.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D8DB410224610E4A00E63272 /* turtlerock.jpg */; };
@@ -36,13 +34,11 @@
 		D86667142459825B000928B4 /* SwiftUIDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUIDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D86667172459825B000928B4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D86667192459825B000928B4 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		D866671B2459825B000928B4 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		D866671D2459825F000928B4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D86667202459825F000928B4 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		D86667232459825F000928B4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D86667252459825F000928B4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D8DB40F32461022200E63272 /* SwiftUINavigationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUINavigationView.swift; sourceTree = "<group>"; };
-		D8DB40F52461055F00E63272 /* SwiftUITableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUITableView.swift; sourceTree = "<group>"; };
 		D8DB40F72461061600E63272 /* Landmark.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Landmark.swift; sourceTree = "<group>"; };
 		D8DB40FB246108E300E63272 /* LandmarkRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarkRow.swift; sourceTree = "<group>"; };
 		D8DB410224610E4A00E63272 /* turtlerock.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = turtlerock.jpg; sourceTree = "<group>"; };
@@ -92,12 +88,10 @@
 			children = (
 				D86667172459825B000928B4 /* AppDelegate.swift */,
 				D86667192459825B000928B4 /* SceneDelegate.swift */,
-				D866671B2459825B000928B4 /* ContentView.swift */,
-				D8DB40F52461055F00E63272 /* SwiftUITableView.swift */,
 				D8DB40F72461061600E63272 /* Landmark.swift */,
 				D8DB40FB246108E300E63272 /* LandmarkRow.swift */,
-				D8DB410124610E4A00E63272 /* Resources */,
 				D8DB40F32461022200E63272 /* SwiftUINavigationView.swift */,
+				D8DB410124610E4A00E63272 /* Resources */,
 				D866671D2459825F000928B4 /* Assets.xcassets */,
 				D86667222459825F000928B4 /* LaunchScreen.storyboard */,
 				D86667252459825F000928B4 /* Info.plist */,
@@ -220,9 +214,7 @@
 			files = (
 				D8DB40F42461022200E63272 /* SwiftUINavigationView.swift in Sources */,
 				D86667182459825B000928B4 /* AppDelegate.swift in Sources */,
-				D8DB40F62461055F00E63272 /* SwiftUITableView.swift in Sources */,
 				D866671A2459825B000928B4 /* SceneDelegate.swift in Sources */,
-				D866671C2459825B000928B4 /* ContentView.swift in Sources */,
 				D8DB40FC246108E300E63272 /* LandmarkRow.swift in Sources */,
 				D8DB40F82461061600E63272 /* Landmark.swift in Sources */,
 			);
