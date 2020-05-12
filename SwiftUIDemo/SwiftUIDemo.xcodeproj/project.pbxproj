@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D81B1AFA2463BDB900B1065A /* SwiftUITableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D81B1AF92463BDB900B1065A /* SwiftUITableView.swift */; };
 		D86667182459825B000928B4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D86667172459825B000928B4 /* AppDelegate.swift */; };
 		D866671A2459825B000928B4 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D86667192459825B000928B4 /* SceneDelegate.swift */; };
 		D866671E2459825F000928B4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D866671D2459825F000928B4 /* Assets.xcassets */; };
@@ -31,6 +32,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		D81B1AF92463BDB900B1065A /* SwiftUITableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUITableView.swift; sourceTree = "<group>"; };
 		D86667142459825B000928B4 /* SwiftUIDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUIDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D86667172459825B000928B4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D86667192459825B000928B4 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -91,6 +93,7 @@
 				D8DB40F72461061600E63272 /* Landmark.swift */,
 				D8DB40FB246108E300E63272 /* LandmarkRow.swift */,
 				D8DB40F32461022200E63272 /* SwiftUINavigationView.swift */,
+				D81B1AF92463BDB900B1065A /* SwiftUITableView.swift */,
 				D8DB410124610E4A00E63272 /* Resources */,
 				D866671D2459825F000928B4 /* Assets.xcassets */,
 				D86667222459825F000928B4 /* LaunchScreen.storyboard */,
@@ -215,6 +218,7 @@
 				D8DB40F42461022200E63272 /* SwiftUINavigationView.swift in Sources */,
 				D86667182459825B000928B4 /* AppDelegate.swift in Sources */,
 				D866671A2459825B000928B4 /* SceneDelegate.swift in Sources */,
+				D81B1AFA2463BDB900B1065A /* SwiftUITableView.swift in Sources */,
 				D8DB40FC246108E300E63272 /* LandmarkRow.swift in Sources */,
 				D8DB40F82461061600E63272 /* Landmark.swift in Sources */,
 			);

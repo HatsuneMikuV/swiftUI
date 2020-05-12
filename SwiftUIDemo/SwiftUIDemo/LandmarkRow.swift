@@ -16,6 +16,9 @@ struct LandmarkRow: View {
             landmark.image(forSize: 50)
             Text(verbatim: landmark.name)
             Spacer()
+        }.onDrag { () -> NSItemProvider in
+            print("11111111111111")
+            return NSItemProvider()
         }
     }
 }
